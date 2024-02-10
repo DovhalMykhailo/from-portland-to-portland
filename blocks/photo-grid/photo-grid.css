@@ -1,0 +1,27 @@
+.photo-grid{
+  width: calc(100% - 32px);
+  min-width: 288px;
+  padding: 64px 0px;
+}
+
+@media (min-width: 768px){
+  .photo-grid{
+    width: calc(100% - 48px);
+    padding: 88px 0px;
+  }
+}
+
+@media (min-width: 1024px){
+  .photo-grid{
+    width: calc(100% - 96px);
+    padding: 92px 0px;
+  }
+}
+
+@media (min-width: 1280px){
+  .photo-grid{
+    width: calc(100% - 48px);
+    gap: 14px;
+    max-width: 1184px;
+  }
+}

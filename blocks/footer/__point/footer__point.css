@@ -1,0 +1,9 @@
+.footer__point{
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px){
+  .footer__point{
+    margin: 0;
+  }
+}

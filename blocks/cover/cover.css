@@ -1,0 +1,41 @@
+.cover{
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:  url('../../images/cover__background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 380px;
+  min-height: 200px;
+  margin: 64px 0px;
+}
+
+@media (min-width: 434px){
+  .cover{
+    min-height: 380px;
+    max-height: 480px;
+  }
+}
+
+@media (min-width: 768px){
+  .cover{
+    margin: 89px 0px 88px;
+    min-height: 480px;
+    max-height: 640px;
+  }
+}
+
+@media (min-width: 1024px){
+  .cover{
+    margin: 92px 0px;
+    min-height: 640px;
+    max-height: 740px;
+    max-width: 1184px;
+  }
+}
+
